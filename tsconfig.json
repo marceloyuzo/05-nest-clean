@@ -18,6 +18,9 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "types": [
       "vitest/globals"
     ]
