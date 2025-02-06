@@ -58,7 +58,7 @@ export class PrismaAnswersRepository implements AnswersRepository {
 
     await this.prisma.answer.update({
       where: {
-        id: data.id,
+        id: answer.id.toString(),
       },
       data,
     })
